@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Screening Result</title>
+</head>
+<body>
+    <h1>Resume Uploaded Successfully</h1>
+    <p><strong>File Name:</strong> {{ filename }}</p>
+    <p><strong>Predicted Role:</strong> {{ predicted_role }}</p>
+    <p><strong>Confidence:</strong> {{ confidence * 100 }}%</p>
+    <br>
+    <a href="/">Upload another resume</a>
+</body>
+</html>
